@@ -36,7 +36,7 @@ def create_app():
     @app.route("/", methods=["GET"])
     def health_check():
         """
-        GET /api/health
+        GET /
 
         A simple endpoint to check if the server is running.
         Useful for:
