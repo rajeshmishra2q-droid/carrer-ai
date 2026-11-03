@@ -33,7 +33,7 @@ def create_app():
     app.register_blueprint(guidance_bp)
 
   
-    @app.route("/api/health", methods=["GET"])
+    @app.route("/", methods=["GET"])
     def health_check():
         """
         GET /api/health
